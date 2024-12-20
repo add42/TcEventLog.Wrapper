@@ -8,6 +8,7 @@
     <Authors>add42</Authors>
 	<VersionPrefix>0.0.2</VersionPrefix>
 	<RepositoryUrl>https://github.com/add42/TcEventLog.Wrapper</RepositoryUrl>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +21,13 @@
       <Isolated>false</Isolated>
       <EmbedInteropTypes>true</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
