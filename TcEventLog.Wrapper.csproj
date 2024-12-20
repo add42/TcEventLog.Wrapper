@@ -6,7 +6,8 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>add42</Authors>
-	<VersionPrefix>0.0.1</VersionPrefix>
+	<VersionPrefix>0.0.2</VersionPrefix>
+	<RepositoryUrl>https://github.com/add42/TcEventLog.Wrapper</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
