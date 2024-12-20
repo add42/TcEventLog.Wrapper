@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcEventLog.Wrapper", "TcEventLog.Wrapper.csproj", "{5111CC24-FCB9-4C0C-A0F8-E1F0ABF356E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5111CC24-FCB9-4C0C-A0F8-E1F0ABF356E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5111CC24-FCB9-4C0C-A0F8-E1F0ABF356E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5111CC24-FCB9-4C0C-A0F8-E1F0ABF356E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5111CC24-FCB9-4C0C-A0F8-E1F0ABF356E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1A5B830-9DF1-4610-8AA2-0F6F32B63B6E}
+	EndGlobalSection
+EndGlobal
