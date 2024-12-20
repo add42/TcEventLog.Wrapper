@@ -6,9 +6,10 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>add42</Authors>
-	<VersionPrefix>0.0.2</VersionPrefix>
+	<VersionPrefix>0.0.3</VersionPrefix>
 	<RepositoryUrl>https://github.com/add42/TcEventLog.Wrapper</RepositoryUrl>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<Description>Wrapper to encapsulate access to Beckhoff TcEventLogger Type Library and provide it as nuget package</Description>
   </PropertyGroup>
 
   <ItemGroup>

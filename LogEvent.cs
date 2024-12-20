@@ -25,6 +25,7 @@ namespace TcEventLog.Wrapper
         public EventClasses EventClass { get; }
         public int MsConfirmed { get; }
         public int MsReset { get; }
+        public int MustConfirm { get; }
 
         ITcEvent? _TtcEvent = null;
 
@@ -36,6 +37,7 @@ namespace TcEventLog.Wrapper
             EventClass = (EventClasses)tcEvent.Class;
             MsConfirmed = tcEvent.MsConfirmed;
             MsReset = tcEvent.MsReset;
+            MustConfirm = tcEvent.MustConfirm;
         }
 
         public string? GetSourceName(int langId)
